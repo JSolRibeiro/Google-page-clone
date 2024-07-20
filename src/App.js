@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import logo_google from './logo_google.svg';
+import SearchInput from './components/SearchInput';
 import './App.css';
+import Button from './components/Button';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <img src={logo_google} className="logo_google" alt="erro" />
+      <SearchInput />
+      <div className="botoes">
+        <Button text="Pesquisa Google" />
+        <Button text="Estou com sorte" />
+      </div>
+      <Footer />
     </div>
   );
 }

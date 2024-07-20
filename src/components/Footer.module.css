@@ -1,0 +1,37 @@
+.footerContainer{
+    background-color: #f2f2f2;
+    color: red;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerContainer a{
+    text-decoration: none;
+    color: #707070;
+}
+
+.menu_bottom1{
+    display: flex;
+    padding: 10px 0 10px 30px;
+    border-bottom: 1px solid #DADCE0;
+}
+
+.menu_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuBottom1{
+    display: flex;
+    width: 420px;
+    padding: 10px 0 10px 30px;
+    justify-content: space-between;
+}
+
+.menuBottom2{
+    display: flex;
+    width: 250px;
+    padding: 10px 30px 10px 0;
+    justify-content: space-between;
+}
